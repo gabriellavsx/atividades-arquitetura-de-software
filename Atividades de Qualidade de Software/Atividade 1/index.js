@@ -1,6 +1,6 @@
-const Aluno = require('./aluno');
-const Turma = require('./turma');
-const Turma_presencial = require('./turma_presencial');
+import Aluno from "./aluno.js";
+import Turma from "./turma.js";
+import Turma_presencial from "./turma_presencial.js";
 
 const aluno1 = new Aluno('Maria Gabriella','mariagabriellavictor','2143364');
 const turma1 = new Turma("ES46A",8);

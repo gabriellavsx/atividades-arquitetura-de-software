@@ -3,11 +3,10 @@ class Turma{
         this.codigo = codigo;
         this.nota = nota;
     }
-    
     aprovado(){
         return this.nota>=7;;
     }
 }
 
 
-module.exports = Turma;
+export default Turma;
