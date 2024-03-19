@@ -10,4 +10,4 @@ class Turma_presencial extends Turma{
         return this.frequencia>= 70 && super.aprovado();
     }
 }
-export default  Turma_presencial;
+module.exports = Turma_presencial;

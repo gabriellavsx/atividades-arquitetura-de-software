@@ -7,7 +7,7 @@ class Aluno {
     }
 }
 
-export default Aluno;
+module.exports = Aluno;
 
 
 
